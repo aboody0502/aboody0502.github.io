@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-PhD thesis officially endorsed
+PhD thesis officially endorsed by ÉTS Dean of Studies with **Mention Excellent** — the highest grade conferred. 🎓

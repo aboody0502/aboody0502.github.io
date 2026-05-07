@@ -27,4 +27,8 @@ I am an electrical engineer and researcher whose work sits at the intersection o
 
 I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://kaddoumcom.wordpress.com/). My thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
 
-I am co-inventor on **four granted U.S.
+I am co-inventor on **four granted U.S. patents** in deep-learning-based event detection (with Dr. Naveed Iqbal at KFUPM), and have published across IEEE venues including *Communications Letters*, *Transactions on Network and Service Management*, and *Communications Magazine*.
+
+Before the Ph.D., I worked as an electrical engineer at Naizak Global Engineering Systems (2018–2021), embedded with KFUPM's Lab Technical Support Office — diagnosing and servicing analytical instrumentation across the university's research labs. I hold an M.Sc. in Telecommunications Engineering and a B.Sc. in Electrical Engineering, both from [King Fahd University of Petroleum and Minerals (KFUPM)](https://www.kfupm.edu.sa/).
+
+Outside of engineering, I am also a published novelist — see the [books](/books/) page for the two Arabic-language novels I have written.
