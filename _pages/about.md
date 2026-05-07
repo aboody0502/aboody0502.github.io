@@ -25,7 +25,7 @@ latest_posts:
 
 I am an electrical engineer and researcher whose work sits at the intersection of **radio resource management**, **risk-aware optimization**, and **digital-twin frameworks** for next-generation wireless networks. My research covers outage detection and coverage planning under uncertainty, OFDMA interference management with Kalman-filter-based user tracking, and coverage enhancement for NB-IoT and industrial-IoT networks — extending into non-terrestrial (UAV / high-altitude platform) systems.
 
-I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://kaddoumcom.wordpress.com/). My thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
+I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://www.etsmtl.ca/en/study-at-ets/professors/gkaddoum). My thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
 
 I am co-inventor on **four granted U.S. patents** in deep-learning-based event detection (with Dr. Naveed Iqbal at KFUPM), and have published across IEEE venues including *Communications Letters*, *Transactions on Network and Service Management*, and *Communications Magazine*.
 
