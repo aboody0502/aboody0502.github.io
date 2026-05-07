@@ -6,7 +6,7 @@ subtitle: Ph.D., Electrical Engineering — Radio Resource Management & Wireless
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: aboody.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Montréal, QC — Canada</p>
@@ -27,4 +27,4 @@ I am an electrical engineer and researcher whose work sits at the intersection o
 
 I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://kaddoumcom.wordpress.com/). My thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
 
-I am co-inventor on **four granted U.
+I am co-inventor on **four granted U.S.
