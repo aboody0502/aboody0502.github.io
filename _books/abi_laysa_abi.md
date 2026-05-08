@@ -4,9 +4,8 @@ title: "أبي ليس أبي — My Father Is Not My Father"
 author: Abdullah Othman
 categories: novel arabic
 released: 2020
+buy_link: https://www.tkweenonline.com.sa/product/%d8%a3%d8%a8%d9%8a-%d9%84%d9%8a%d8%b3-%d8%a3%d8%a8%d9%8a/
 status: Published
 ---
 
-A novel published in **2020** by **Tkween (تكوين)** — a Saudi publishing house based in Jeddah. The novel was previously available on Tkween's online store in both **electronic and paperback** editions, but the publisher has since closed and the original retail link is no longer active.
-
-Hard copies still exist with friends and family — if you'd like a copy, please [reach out](mailto:abdullah.b.othman@gmail.com).
+A novel published in **2020** by **Tkween (تكوين)**, a Jeddah-based publishing house. Originally available in both **electronic and paperback** editions on Tkween's online store.
