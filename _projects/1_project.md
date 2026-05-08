@@ -2,7 +2,7 @@
 layout: page
 title: Digital-Twin Frameworks for Wireless Smart Grids
 description: Outage detection and UAV-assisted coverage planning for resilient IIoT smart-grid communications
-img: assets/img/12.jpg
+img: assets/img/pillar1_digital_twin.png
 importance: 1
 category: research
 related_publications: true

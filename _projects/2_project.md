@@ -2,7 +2,7 @@
 layout: page
 title: Radio Resource Management for NB-IoT and Industrial-IoT
 description: Joint power control, sub-carrier scheduling, and cell-radius planning for massive-device microgrid networks
-img: assets/img/3.jpg
+img: assets/img/pillar2_nbiot_rrm.png
 importance: 2
 category: research
 related_publications: true
