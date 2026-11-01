@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/books/abi_laysa_abi/
 layout: book-review
 title: "أبي ليس أبي — My Father Is Not My Father"
 author: Abdullah Othman

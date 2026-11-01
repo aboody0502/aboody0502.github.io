@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/projects/3_project/
 layout: page
 title: Risk-Aware Resource Allocation in UAV / HAPS Non-Terrestrial Networks
 description: OFDMA interference management with Kalman-filter-based user tracking under position uncertainty

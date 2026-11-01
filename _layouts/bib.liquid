@@ -1,5 +1,6 @@
 ---
 ---
+{% include language-context.liquid %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -82,7 +83,7 @@
           {% if forloop.first == false -%}
             {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
           {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+          {%- if forloop.last and author_array_limit == author_array_size %}{{ ui.and }} {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -103,10 +104,10 @@
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
-      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
+      {%- assign more_authors_hide = more_authors | append: ' ' | append: ui.more_author -%}
       {% if more_authors > 0 %}
         {%- if more_authors > 1 -%}
-          {% assign more_authors_hide = more_authors_hide | append: 's' %}
+          {% assign more_authors_hide = more_authors | append: ' ' | append: ui.more_authors %}
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
@@ -116,10 +117,10 @@
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
+        , {{ ui.and }}
         <span
           class="more-authors"
-          title="click to view {{ more_authors_hide }}"
+          title="{{ ui.view_authors }} {{ more_authors_hide }}"
           onclick="
               var element = $(this);
               element.attr('title', '');
@@ -191,11 +192,11 @@
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+          {%- if entry.award_name %}{{ entry.award_name }}{% else %}{{ ui.awarded }}{% endif -%}
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">{{ ui.abstract }}</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -381,7 +382,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

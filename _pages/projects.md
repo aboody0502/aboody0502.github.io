@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/projects/
 layout: page
 title: research
 permalink: /projects/

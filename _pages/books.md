@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/books/
 layout: book-shelf
 title: books
 permalink: /books/
