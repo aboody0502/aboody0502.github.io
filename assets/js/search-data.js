@@ -1,542 +1,797 @@
-// get the ninja-keys element
+// Curate public portfolio content; retain demo source files outside the index.
 const ninja = document.querySelector('ninja-keys');
+const searchCatalog = {
 
-// add the home and posts menu items
-ninja.data = [{
-    id: "nav-about",
-    title: "about",
-    section: "Navigation",
-    handler: () => {
-      window.location.href = "/";
-    },
-  },{id: "nav-publications",
-          title: "Publications",
-          description: "Articles de revues à comité de lecture, communications de conférences et brevets américains délivrés en communications sans fil, gestion des ressources radio, réseaux électriques intelligents et détection sismique par apprentissage profond.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/fr/publications/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Selected peer-reviewed journal papers, conference papers, and granted U.S. patents in wireless communications, radio resource management, smart-grid networking, and deep-learning-based seismic sensing.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-recherche",
-          title: "Recherche",
-          description: "Axes de ma recherche doctorale sur la gestion des ressources radio et les jumeaux numériques sans fil.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/fr/projects/";
-          },
-        },{id: "nav-research",
-          title: "research",
-          description: "Research pillars from my Ph.D. thesis on radio resource management and wireless digital twins.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-livres",
-          title: "Livres",
-          description: "Deux romans en langue arabe d’Abdullah Othman.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/fr/books/";
-          },
-        },{id: "nav-books",
-          title: "books",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Curriculum vitæ d’Abdullah Othman, Ph. D. en génie électrique.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/fr/cv/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Curriculum Vitae of Abdullah Othman, Ph.D. — Electrical Engineering.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-أبي-ليس-أبي-my-father-is-not-my-father",
-          title: 'أبي ليس أبي — My Father Is Not My Father',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/abi_laysa_abi/";
-            },},{id: "books-جريمة-في-ريف-انكلترا-a-crime-in-the-english-countryside",
-          title: 'جريمة في ريف انكلترا — A Crime in the English Countryside',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/jareemah_fi_reef_inglatera/";
-            },},{id: "news-new-paper-out-in-ieee-communications-letters-digital-twin-enabled-outage-detection-and-uplink-availability-optimization-with-uav-assistance-read-on-ieee-xplore",
-          title: 'New paper out in IEEE Communications Letters — “Digital-Twin-Enabled Outage Detection and Uplink...',
-          description: "",
-          section: "News",},{id: "news-successfully-defended-my-ph-d-thesis-at-éts-digital-twin-enabled-and-risk-aware-radio-resource-management-for-resilient-iiot-smart-grid-communications-advised-by-prof-georges-kaddoum-the-jury-rated-both-the-thesis-and-presentation-as-excellent-and-nominated-the-thesis-for-the-excellence-award",
-          title: 'Successfully defended my Ph.D. thesis at ÉTS — “Digital-Twin-Enabled and Risk-Aware Radio Resource...',
-          description: "",
-          section: "News",},{id: "news-phd-thesis-officially-endorsed-by-éts-dean-of-studies-with-mention-excellent-the-highest-grade-conferred",
-          title: 'PhD thesis officially endorsed by ÉTS Dean of Studies with Mention Excellent —...',
-          description: "",
-          section: "News",},{id: "news-new-paper-out-in-ieee-transactions-on-network-and-service-management-joint-digital-twin-synchronization-scheduling-and-resource-allocation-for-post-disaster-wireless-networks-read-on-ieee-xplore",
-          title: 'New paper out in IEEE Transactions on Network and Service Management: “Joint Digital...',
-          description: "",
-          section: "News",},{id: "news-presented-the-poster-supporting-grid-recovery-through-resilient-wireless-connectivity-at-hydro-québec-s-symposium-3i-ireq-varennes-october-7-8-2026-more-about-this-research",
-          title: 'Presented the poster “Supporting Grid Recovery Through Resilient Wireless Connectivity” at Hydro-Québec’s Symposium...',
-          description: "",
-          section: "News",},{id: "projects-digital-twin-frameworks-for-wireless-smart-grids",
-          title: 'Digital-Twin Frameworks for Wireless Smart Grids',
-          description: "Outage detection and UAV-assisted coverage planning for resilient IIoT smart-grid communications",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-radio-resource-management-for-nb-iot-and-industrial-iot",
-          title: 'Radio Resource Management for NB-IoT and Industrial-IoT',
-          description: "Joint power control, sub-carrier scheduling, and cell-radius planning for massive-device microgrid networks",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-risk-aware-resource-allocation-in-uav-haps-non-terrestrial-networks",
-          title: 'Risk-Aware Resource Allocation in UAV / HAPS Non-Terrestrial Networks',
-          description: "OFDMA interference management with Kalman-filter-based user tracking under position uncertainty",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/abdullah_othman_cv.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%61%62%64%75%6C%6C%61%68.%62.%6F%74%68%6D%61%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/abdullah-b-othman", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/aboody0502", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+
+
+"en": [
+  { id: 'nav-en-home', title: "about", section: "Navigation", url: "/" },
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-en-publications', title: "publications", description: "Selected peer-reviewed journal papers, conference papers, and granted U.S. patents in wireless communications, radio resource management, smart-grid networking, and deep-learning-based seismic sensing.", section: "Navigation", url: "/publications/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-en-projects', title: "research", description: "Research pillars from my Ph.D. thesis on radio resource management and wireless digital twins.", section: "Navigation", url: "/projects/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-en-books', title: "books", description: "", section: "Navigation", url: "/books/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-en-cv', title: "CV", description: "Curriculum Vitae of Abdullah Othman, Ph.D. — Electrical Engineering.", section: "Navigation", url: "/cv/" },
+    
+  
+  
+    
+      
+        { id: 'project-en-1_project', title: "Digital-Twin Frameworks for Wireless Smart Grids", description: "Outage detection and UAV-assisted coverage planning for resilient IIoT smart-grid communications", section: "Research", url: "/projects/1_project/" },
+      
+    
+      
+        { id: 'project-en-2_project', title: "Radio Resource Management for NB-IoT and Industrial-IoT", description: "Joint power control, sub-carrier scheduling, and cell-radius planning for massive-device microgrid networks", section: "Research", url: "/projects/2_project/" },
+      
+    
+      
+        { id: 'project-en-3_project', title: "Risk-Aware Resource Allocation in UAV / HAPS Non-Terrestrial Networks", description: "OFDMA interference management with Kalman-filter-based user tracking under position uncertainty", section: "Research", url: "/projects/3_project/" },
+      
+    
+    
+      
+        { id: 'book-en-abi_laysa_abi', title: "أبي ليس أبي — My Father Is Not My Father", section: "Books", url: "/books/abi_laysa_abi/" },
+      
+    
+      
+        { id: 'book-en-jareemah_fi_reef_inglatera', title: "جريمة في ريف انكلترا — A Crime in the English Countryside", section: "Books", url: "/books/jareemah_fi_reef_inglatera/" },
+      
+    
+  
+  { id: 'tutoring-en', title: "Tutoring", section: "Services", url: "/#tutoring" },
+  
+    
+      
+      { id: 'news-en-1', title: "New paper out in IEEE Communications Letters — “Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With...", description: "New paper out in IEEE Communications Letters — “Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance.” Read on IEEE Xplore.", section: "news", url: "/news/" },
+    
+  
+    
+      
+      { id: 'news-en-2', title: "Successfully defended my Ph.D. thesis at ÉTS — “Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient...", description: "Successfully defended my Ph.D. thesis at ÉTS — “Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,” advised by Prof. Georges Kaddoum. The jury rated both the thesis and presentation as excellent and nominated the thesis for the excellence award. 🎉", section: "news", url: "/news/" },
+    
+  
+    
+      
+      { id: 'news-en-3', title: "PhD thesis officially endorsed by ÉTS Dean of Studies with Mention Excellent — the highest grade...", description: "PhD thesis officially endorsed by ÉTS Dean of Studies with Mention Excellent — the highest grade conferred. 🎓", section: "news", url: "/news/" },
+    
+  
+    
+      
+      { id: 'news-en-4', title: "New paper out in IEEE Transactions on Network and Service Management: “Joint Digital Twin Synchronization Scheduling...", description: "New paper out in IEEE Transactions on Network and Service Management: “Joint Digital Twin Synchronization Scheduling and Resource Allocation for Post-Disaster Wireless Networks.” Read on IEEE Xplore.", section: "news", url: "/news/" },
+    
+  
+    
+      
+      { id: 'news-en-5', title: "Presented the poster “Supporting Grid Recovery Through Resilient Wireless Connectivity” at Hydro-Québec’s Symposium 3i, IREQ, Varennes,...", description: "Presented the poster “Supporting Grid Recovery Through Resilient Wireless Connectivity” at Hydro-Québec’s Symposium 3i, IREQ, Varennes, October 7–8, 2026. More about this research.", section: "news", url: "/news/" },
+    
+  
+  { id: 'download-cv-en', title: "Download English CV (PDF)", section: "Contact and downloads", url: "/assets/pdf/abdullah_othman_cv.pdf" },
+  
+    { id: 'contact-email-en', title: "Email", section: "Contact and downloads", url: "mailto:abdullah.b.othman@gmail.com" },
+  
+  
+    { id: 'contact-linkedin-en', title: 'LinkedIn', section: "Contact and downloads", url: "https://www.linkedin.com/in/abdullah-b-othman", external: true },
+  
+  
+    { id: 'contact-github-en', title: 'GitHub', section: "Contact and downloads", url: "https://github.com/aboody0502", external: true },
+  
+  
+    { id: 'theme-light-en', title: "Use light theme", section: "Change theme", theme: 'light' },
+    { id: 'theme-dark-en', title: "Use dark theme", section: "Change theme", theme: 'dark' },
+    { id: 'theme-system-en', title: "Use system theme", section: "Change theme", theme: 'system' },
+  
+],
+
+
+
+"fr": [
+  { id: 'nav-fr-home', title: "à propos", section: "Navigation", url: "/fr/" },
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-fr-fr-publications', title: "Publications", description: "Articles de revues à comité de lecture, communications de conférences et brevets américains délivrés en communications sans fil, gestion des ressources radio, réseaux électriques intelligents et détection sismique par apprentissage profond.", section: "Navigation", url: "/fr/publications/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-fr-fr-projects', title: "Recherche", description: "Axes de ma recherche doctorale sur la gestion des ressources radio et les jumeaux numériques sans fil.", section: "Navigation", url: "/fr/projects/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-fr-fr-books', title: "Livres", description: "Deux romans en langue arabe d’Abdullah Othman.", section: "Navigation", url: "/fr/books/" },
+    
+  
+    
+    
+  
+    
+    
+      { id: 'nav-fr-fr-cv', title: "CV", description: "Curriculum vitæ d’Abdullah Othman, Ph. D. en génie électrique.", section: "Navigation", url: "/fr/cv/" },
+    
+  
+    
+    
+  
+  
+    
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+          { id: 'book-fr-fr-books-abi-laysa-abi', title: "أبي ليس أبي - My Father Is Not My Father", section: "Livres", url: "/fr/books/abi_laysa_abi/" },
+        
+      
+    
+      
+        
+          { id: 'book-fr-fr-books-jareemah-fi-reef-inglatera', title: "جريمة في ريف انكلترا - A Crime in the English Countryside", section: "Livres", url: "/fr/books/jareemah_fi_reef_inglatera/" },
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          { id: 'project-fr-fr-projects-1-project', title: "Jumeaux numériques pour les communications sans fil des réseaux électriques intelligents", description: "Détection des pannes et planification de la couverture avec l’appui de drones pour des communications IIoT résilientes dans les réseaux électriques intelligents.", section: "Recherche", url: "/fr/projects/1_project/" },
+        
+      
+    
+      
+        
+          { id: 'project-fr-fr-projects-2-project', title: "Gestion des ressources radio pour le NB-IoT et l’Internet industriel des objets", description: "Optimisation conjointe de la puissance, de l’ordonnancement des sous-porteuses et du rayon des cellules pour les réseaux de microréseaux électriques comptant un grand nombre d’appareils.", section: "Recherche", url: "/fr/projects/2_project/" },
+        
+      
+    
+      
+        
+          { id: 'project-fr-fr-projects-3-project', title: "Allocation des ressources tenant compte des risques dans les réseaux non terrestres UAV/HAPS", description: "Gestion des interférences OFDMA et suivi des utilisateurs par filtre de Kalman en présence d’incertitudes sur leur position.", section: "Recherche", url: "/fr/projects/3_project/" },
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+  { id: 'tutoring-fr', title: "Cours particuliers", section: "Services", url: "/fr/#tutoring" },
+  
+    
+      
+      { id: 'news-fr-1', title: "Nouvel article dans IEEE Communications Letters : « Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With...", description: "Nouvel article dans IEEE Communications Letters : « Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance ». Consulter sur IEEE Xplore.", section: "actualités", url: "/fr/news/" },
+    
+  
+    
+      
+      { id: 'news-fr-2', title: "Soutenance réussie de ma thèse de doctorat à l’ÉTS : « Digital-Twin-Enabled and Risk-Aware Radio Resource...", description: "Soutenance réussie de ma thèse de doctorat à l’ÉTS : « Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications », sous la direction du professeur Georges Kaddoum. Le jury a attribué la mention Excellent à la thèse et à la présentation et a proposé la thèse pour le prix d’excellence. 🎉", section: "actualités", url: "/fr/news/" },
+    
+  
+    
+      
+      { id: 'news-fr-3', title: "La thèse de doctorat a été officiellement approuvée par le Décanat des études de l’ÉTS avec...", description: "La thèse de doctorat a été officiellement approuvée par le Décanat des études de l’ÉTS avec la Mention Excellent, la plus haute appréciation décernée. 🎓", section: "actualités", url: "/fr/news/" },
+    
+  
+    
+      
+      { id: 'news-fr-4', title: "Nouvel article dans IEEE Transactions on Network and Service Management : « Joint Digital Twin Synchronization...", description: "Nouvel article dans IEEE Transactions on Network and Service Management : « Joint Digital Twin Synchronization Scheduling and Resource Allocation for Post-Disaster Wireless Networks ». Consulter sur IEEE Xplore.", section: "actualités", url: "/fr/news/" },
+    
+  
+    
+      
+      { id: 'news-fr-5', title: "Présentation de l’affiche « Supporting Grid Recovery Through Resilient Wireless Connectivity » au Symposium 3i d’Hydro-Québec,...", description: "Présentation de l’affiche « Supporting Grid Recovery Through Resilient Wireless Connectivity » au Symposium 3i d’Hydro-Québec, à l’IREQ, à Varennes, les 7 et 8 octobre 2026. En savoir plus sur ces travaux.", section: "actualités", url: "/fr/news/" },
+    
+  
+  { id: 'download-cv-fr', title: "Télécharger le CV français (PDF)", section: "Contact et téléchargements", url: "/assets/pdf/abdullah_othman_cv_fr.pdf" },
+  
+    { id: 'contact-email-fr', title: "Courriel", section: "Contact et téléchargements", url: "mailto:abdullah.b.othman@gmail.com" },
+  
+  
+    { id: 'contact-linkedin-fr', title: 'LinkedIn', section: "Contact et téléchargements", url: "https://www.linkedin.com/in/abdullah-b-othman", external: true },
+  
+  
+    { id: 'contact-github-fr', title: 'GitHub', section: "Contact et téléchargements", url: "https://github.com/aboody0502", external: true },
+  
+  
+    { id: 'theme-light-fr', title: "Utiliser le thème clair", section: "Changer le thème", theme: 'light' },
+    { id: 'theme-dark-fr', title: "Utiliser le thème sombre", section: "Changer le thème", theme: 'dark' },
+    { id: 'theme-system-fr', title: "Utiliser le thème du système", section: "Changer le thème", theme: 'system' },
+  
+],
+
+};
+const searchLanguage = document.documentElement.lang === 'fr' ? 'fr' : 'en';
+ninja.data = searchCatalog[searchLanguage].map(({ url, theme, external, ...item }) => ({
+  ...item,
+  handler: () => {
+    if (theme) setThemeSetting(theme);
+    else if (external) window.open(url, '_blank', 'noopener');
+    else window.location.href = url;
+  },
+}));
