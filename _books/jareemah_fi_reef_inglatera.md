@@ -3,6 +3,8 @@ lang: en
 alternate_url: /fr/books/jareemah_fi_reef_inglatera/
 layout: book-review
 title: "جريمة في ريف انكلترا — A Crime in the English Countryside"
+title_ar: جريمة في ريف انكلترا
+title_en: A Crime in the English Countryside
 author: Abdullah Othman
 cover: assets/img/novel1.jpg
 categories: novel arabic

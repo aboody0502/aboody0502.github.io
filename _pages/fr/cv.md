@@ -17,4 +17,4 @@ Vous pouvez télécharger la version française à jour de mon CV :
   </a>
 </div>
 
-Ce document comprend la liste complète de mes publications, mes brevets américains délivrés, mes distinctions et financements, mon parcours universitaire et mes compétences. Pour un aperçu, consultez la page [À propos]({{ '/fr/' | relative_url }}) ou mon [profil LinkedIn](https://www.linkedin.com/in/abdullah-b-othman/).
+Ce document comprend une sélection de publications, mes brevets américains délivrés, mes distinctions et financements, mon parcours universitaire et mes compétences. La [liste complète de mes publications]({{ '/fr/publications/' | relative_url }}) est disponible sur le site. Pour un aperçu, consultez la page [À propos]({{ '/fr/' | relative_url }}) ou mon [profil LinkedIn](https://www.linkedin.com/in/abdullah-b-othman/).

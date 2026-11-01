@@ -18,7 +18,7 @@ En dehors du génie, j’écris de la fiction en arabe. Les deux romans ci-desso
         <div class="card h-100 hoverable">
           {% include figure.liquid path="assets/img/novel1.jpg" sizes="250px" alt="Couverture de جريمة في ريف انكلترا — A Crime in the English Countryside" class="card-img-top" %}
           <div class="card-body">
-            <h2 class="card-title"><span lang="ar" dir="rtl">جريمة في ريف انكلترا</span> — A Crime in the English Countryside</h2>
+            <h2 class="card-title"><bdi lang="ar" dir="rtl">جريمة في ريف انكلترا</bdi> — <span lang="en">A Crime in the English Countryside</span></h2>
             <p class="card-text">Court roman en arabe, lauréat d’un concours d’écriture en 2017 et disponible gratuitement sur Jarir Reader.</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ En dehors du génie, j’écris de la fiction en arabe. Les deux romans ci-desso
       <a href="{{ '/fr/books/abi_laysa_abi/' | relative_url }}">
         <div class="card h-100 hoverable">
           <div class="card-body">
-            <h2 class="card-title"><span lang="ar" dir="rtl">أبي ليس أبي</span> — My Father Is Not My Father</h2>
+            <h2 class="card-title"><bdi lang="ar" dir="rtl">أبي ليس أبي</bdi> — <span lang="en">My Father Is Not My Father</span></h2>
             <p class="card-text">Roman publié par Tkween à Djeddah en 2020, initialement proposé en éditions papier et numérique.</p>
           </div>
         </div>

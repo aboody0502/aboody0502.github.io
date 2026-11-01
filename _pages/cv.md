@@ -17,4 +17,4 @@ You can download the latest PDF version of my CV here:
   </a>
 </div>
 
-The PDF includes my full publication list, granted U.S. patents, awards, funding, education history, and skills. For a quick summary, see the [About]({{ site.baseurl }}/) page or my [LinkedIn profile](https://www.linkedin.com/in/abdullah-b-othman/).
+The PDF includes selected publications, granted U.S. patents, awards, funding, education history, and skills. See the [full publication list]({{ '/publications/' | relative_url }}). For a quick summary, see the [About]({{ site.baseurl }}/) page or my [LinkedIn profile](https://www.linkedin.com/in/abdullah-b-othman/).

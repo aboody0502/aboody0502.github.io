@@ -23,4 +23,9 @@ Non-terrestrial networks (UAVs, HAPS) are central to 6G coverage extension — b
 - **Risk-aware (CVaR-based) margins** for power allocation under heavy impulsive interference
 - Designed for both standalone UAV deployments and UAV+HAPS hybrid backhaul scenarios
 
-This is the third pillar of my Ph.D. thesis. Several papers from this work are currently under review at IEEE journals (TNSM, Comm. Letters, Wireless Comm. Letters, TVT) — links will be added once published.
+This is the third pillar of my Ph.D. thesis.
+
+**Related published work:**
+
+- UAV-assisted outage recovery: [_Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance_](https://doi.org/10.1109/LCOMM.2026.3669035) — IEEE Communications Letters, 2026.
+- Synchronization and resource allocation in post-disaster wireless networks: [_Joint Digital Twin Synchronization Scheduling and Resource Allocation for Post-Disaster Wireless Networks_](https://doi.org/10.1109/TNSM.2026.3714917) — IEEE Transactions on Network and Service Management, 2026. See the [digital-twin research page]({{ '/projects/1_project/' | relative_url }}) for this work.

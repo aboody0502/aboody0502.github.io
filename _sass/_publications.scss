@@ -7,6 +7,10 @@
 .publications {
   margin-top: 2rem;
 
+  [hidden] {
+    display: none !important;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -24,7 +28,7 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -86,20 +90,23 @@
           font-style: normal;
         }
 
-        > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+        > button.more-authors {
+          background: none;
+          border: 0;
+          border-bottom: 1px dashed currentColor;
+          color: var(--global-text-color);
           cursor: pointer;
+          font: inherit;
+          padding: 0;
 
           &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            border-bottom-style: solid;
           }
         }
       }
 
       .links {
-        a.btn {
+        .btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -113,7 +120,7 @@
             border-color: var(--global-theme-color);
           }
         }
-        a.award.btn {
+        .award.btn {
           border-color: var(--global-highlight-color);
         }
       }
@@ -135,14 +142,7 @@
 
       .hidden {
         font-size: 0.875rem;
-        max-height: 0px;
-        overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
 
         p {
           line-height: 1.4em;
@@ -154,15 +154,6 @@
           line-height: 1.4em;
           padding: 10px;
         }
-      }
-
-      .hidden.open {
-        max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
       }
 
       div.abstract.hidden {

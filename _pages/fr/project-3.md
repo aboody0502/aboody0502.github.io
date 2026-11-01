@@ -22,4 +22,9 @@ Les réseaux non terrestres, notamment les drones et les HAPS, jouent un rôle c
 - Des **marges tenant compte des risques, fondées sur la CVaR**, pour l’allocation de puissance en présence de fortes interférences impulsionnelles.
 - Une conception adaptée aux déploiements autonomes de drones comme aux architectures hybrides UAV/HAPS pour le réseau de collecte.
 
-Il s’agit du troisième axe de ma thèse de doctorat. Plusieurs articles issus de ces travaux sont en cours d’évaluation dans des revues IEEE (TNSM, Communications Letters, Wireless Communications Letters et TVT). Les liens seront ajoutés après leur publication.
+Il s’agit du troisième axe de ma thèse de doctorat.
+
+**Travaux publiés connexes :**
+
+- Rétablissement avec l’appui de drones : [<span lang="en">_Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance_</span>](https://doi.org/10.1109/LCOMM.2026.3669035) — <span lang="en">IEEE Communications Letters</span>, 2026.
+- Synchronisation et allocation des ressources dans les réseaux sans fil après une catastrophe : [<span lang="en">_Joint Digital Twin Synchronization Scheduling and Resource Allocation for Post-Disaster Wireless Networks_</span>](https://doi.org/10.1109/TNSM.2026.3714917) — <span lang="en">IEEE Transactions on Network and Service Management</span>, 2026. Voir la [page de recherche sur les jumeaux numériques]({{ '/fr/projects/1_project/' | relative_url }}) pour ces travaux.

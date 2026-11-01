@@ -14,9 +14,9 @@ nav_order: 3
     <div class="col">
       <a href="{{ '/fr/projects/1_project/' | relative_url }}">
         <div class="card h-100 hoverable">
-          {% include figure.liquid loading="eager" path="assets/img/pillar1_digital_twin.png" sizes="250px" alt="Jumeaux numériques pour les réseaux électriques intelligents sans fil" class="card-img-top" %}
+          {% include figure.liquid loading="eager" path="assets/img/pillar1_digital_twin.png" sizes="250px" alt="Jumeaux numériques pour les communications sans fil des réseaux électriques intelligents" class="card-img-top" %}
           <div class="card-body">
-            <h2 class="card-title">Jumeaux numériques pour les réseaux électriques intelligents sans fil</h2>
+            <h2 class="card-title">Jumeaux numériques pour les communications sans fil des réseaux électriques intelligents</h2>
             <p class="card-text">Détection des pannes et planification de la couverture avec l’appui de drones pour des communications IIoT résilientes.</p>
           </div>
         </div>

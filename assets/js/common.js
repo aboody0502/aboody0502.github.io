@@ -1,19 +1,33 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  // Native buttons provide Enter/Space activation. Hidden panels also hide any
+  // focusable descendants, including copy controls added after initialization.
+  document.addEventListener("click", function (event) {
+    const button = event.target.closest("button[data-publication-disclosure]");
+    if (!button) return;
+
+    const panel = document.getElementById(button.getAttribute("aria-controls"));
+    if (!panel) return;
+    const expanded = button.getAttribute("aria-expanded") !== "true";
+
+    // Keep the author list independent while showing one details panel at a time.
+    const links = button.closest(".links");
+    if (links && expanded) {
+      links.querySelectorAll("button[data-publication-disclosure]").forEach(function (other) {
+        const otherPanel = document.getElementById(other.getAttribute("aria-controls"));
+        if (other !== button && otherPanel) {
+          other.setAttribute("aria-expanded", "false");
+          otherPanel.hidden = true;
+          otherPanel.classList.remove("open");
+        }
+      });
+    }
+
+    button.setAttribute("aria-expanded", String(expanded));
+    panel.hidden = !expanded;
+    panel.classList.toggle("open", expanded);
+    if (button.dataset.expandedLabel) {
+      button.textContent = expanded ? button.dataset.expandedLabel : button.dataset.collapsedLabel;
+    }
   });
   $("a").removeClass("waves-effect waves-light");
 
