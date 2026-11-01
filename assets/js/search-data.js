@@ -10,11 +10,25 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-publications",
+          title: "Publications",
+          description: "Articles de revues à comité de lecture, communications de conférences et brevets américains délivrés en communications sans fil, gestion des ressources radio, réseaux électriques intelligents et détection sismique par apprentissage profond.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fr/publications/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "Selected peer-reviewed journal papers, conference papers, and granted U.S. patents in wireless communications, radio resource management, smart-grid networking, and deep-learning-based seismic sensing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-recherche",
+          title: "Recherche",
+          description: "Axes de ma recherche doctorale sur la gestion des ressources radio et les jumeaux numériques sans fil.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fr/projects/";
           },
         },{id: "nav-research",
           title: "research",
@@ -23,12 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-livres",
+          title: "Livres",
+          description: "Deux romans en langue arabe d’Abdullah Othman.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fr/books/";
+          },
         },{id: "nav-books",
           title: "books",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/books/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitæ d’Abdullah Othman, Ph. D. en génie électrique.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fr/cv/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -421,6 +449,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-paper-out-in-ieee-transactions-on-network-and-service-management-joint-digital-twin-synchronization-scheduling-and-resource-allocation-for-post-disaster-wireless-networks-read-on-ieee-xplore",
           title: 'New paper out in IEEE Transactions on Network and Service Management: “Joint Digital...',
+          description: "",
+          section: "News",},{id: "news-presented-the-poster-keeping-wireless-digital-twins-useful-after-disruption-at-hydro-québec-s-symposium-3i-ireq-varennes-october-7-8-2026-more-about-this-research",
+          title: 'Presented the poster “Keeping Wireless Digital Twins Useful After Disruption” at Hydro-Québec’s Symposium...',
           description: "",
           section: "News",},{id: "projects-digital-twin-frameworks-for-wireless-smart-grids",
           title: 'Digital-Twin Frameworks for Wireless Smart Grids',
