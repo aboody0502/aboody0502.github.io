@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/
 layout: about
 title: about
 permalink: /
@@ -25,10 +27,12 @@ latest_posts:
 
 I am an electrical engineer and researcher whose work sits at the intersection of **radio resource management**, **risk-aware optimization**, and **digital-twin frameworks** for next-generation wireless networks. My research covers outage detection and coverage planning under uncertainty, OFDMA interference management with Kalman-filter-based user tracking, and coverage enhancement for NB-IoT and industrial-IoT networks — extending into non-terrestrial (UAV / high-altitude platform) systems.
 
-I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://www.etsmtl.ca/en/study-at-ets/professors/gkaddoum). My thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
+I recently completed my Ph.D. at [École de technologie supérieure (ÉTS)](https://www.etsmtl.ca/) in Montréal, advised by [Prof. Georges Kaddoum](https://www.etsmtl.ca/en/study-at-ets/professors/gkaddoum). My thesis, _"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"_ received the **Mention Excellent** (highest grade) and was nominated by the jury for thesis excellence. The work was supported by the Hydro-Québec & NSERC Alliance program.
 
-I am co-inventor on **four granted U.S. patents** in deep-learning-based event detection (with Dr. Naveed Iqbal at KFUPM), and have published across IEEE venues including *Communications Letters*, *Transactions on Network and Service Management*, and *Communications Magazine*.
+I am co-inventor on **four granted U.S. patents** in deep-learning-based event detection (with Dr. Naveed Iqbal at KFUPM), and have published across IEEE venues including _Communications Letters_, _Transactions on Network and Service Management_, and _Communications Magazine_.
 
 Before the Ph.D., I worked as an electrical engineer at Naizak Global Engineering Systems (2018–2021), embedded with KFUPM's Lab Technical Support Office — diagnosing and servicing analytical instrumentation across the university's research labs. I hold an M.Sc. in Telecommunications Engineering and a B.Sc. in Electrical Engineering, both from [King Fahd University of Petroleum and Minerals (KFUPM)](https://www.kfupm.edu.sa/).
+
+I also offer independent tutoring through [Superprof](https://www.superprof.ca/electrical-engineering-phd-tutors-math-statistics-and-physics-for-high-school-cegep-and-university-students-online-and-montreal.html), online and in Montréal, since October 2026. Recent sessions have covered Calculus AB differentiation and electrical circuits in physics, with personalized preparation and guided problems on a digital writing tablet.
 
 Outside of engineering, I am also a published novelist — see the [books](/books/) page for the two Arabic-language novels I have written.

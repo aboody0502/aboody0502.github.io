@@ -155,6 +155,24 @@
   }
 }
 
+// Keep both language choices available when the navigation is collapsed.
+#language-switch {
+  flex-shrink: 0;
+}
+
+@media (max-width: 575.98px) {
+  #navbar .navbar-brand {
+    max-width: calc(100% - 180px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #language-switch {
+    font-size: 0.875rem;
+  }
+}
+
 #light-toggle {
   padding: 0;
   border: 0;

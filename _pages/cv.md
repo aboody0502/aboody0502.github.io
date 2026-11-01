@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/cv/
 layout: page
 permalink: /cv/
 title: CV

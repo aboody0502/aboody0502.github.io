@@ -1,0 +1,56 @@
+en:
+  home: /
+  about: about
+  current: current
+  navigation: Toggle navigation
+  language: Website language
+  search: Search
+  filter_publications: Type to filter
+  theme: Change theme
+  news: news
+  news_url: /news/
+  publications: selected publications
+  publications_url: /publications/
+  latest_posts: latest posts
+  references: References
+  contact: Best reached by email.
+  built_with: Built with
+  and: and
+  more_author: more author
+  more_authors: more authors
+  view_authors: click to view
+  abstract: Abs
+  awarded: Awarded
+  poster: Poster
+  slides: Slides
+  website: Website
+  video: Video
+  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+fr:
+  home: /fr/
+  about: à propos
+  current: page actuelle
+  navigation: Afficher le menu
+  language: Langue du site
+  search: Rechercher
+  filter_publications: Filtrer les publications
+  theme: Changer le thème
+  news: actualités
+  news_url: /fr/news/
+  publications: publications choisies
+  publications_url: /fr/publications/
+  latest_posts: articles récents
+  references: Références
+  contact: Vous pouvez me joindre de préférence par courriel.
+  built_with: Réalisé avec
+  and: et
+  more_author: autre auteur
+  more_authors: autres auteurs
+  view_authors: afficher
+  abstract: Résumé
+  awarded: Distinction
+  poster: Affiche
+  slides: Diapositives
+  website: Site web
+  video: Vidéo
+  months: [janv., févr., mars, avr., mai, juin, juill., août, sept., oct., nov., déc.]

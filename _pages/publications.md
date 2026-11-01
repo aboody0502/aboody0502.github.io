@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/publications/
 layout: page
 permalink: /publications/
 title: publications

@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/projects/2_project/
 layout: page
 title: Radio Resource Management for NB-IoT and Industrial-IoT
 description: Joint power control, sub-carrier scheduling, and cell-radius planning for massive-device microgrid networks
@@ -20,7 +22,7 @@ Designing scalable **radio-resource-management algorithms** for next-generation 
 
 **Selected publications:**
 
-- *Joint Optimization of Radio Resources and Coverage Enhancement in Massive Microgrid Networks* — IEEE Transactions on Network and Service Management, 2023
-- *On the Convergence of Transmission Power Control in Multi-Microgrid Systems* — IWCMC 2025
+- _Joint Optimization of Radio Resources and Coverage Enhancement in Massive Microgrid Networks_ — IEEE Transactions on Network and Service Management, 2023
+- _On the Convergence of Transmission Power Control in Multi-Microgrid Systems_ — IWCMC 2025
 
 This pillar of my thesis directly addresses one of the open challenges in scaling smart-grid wireless networks beyond pilot deployments — how to coordinate massive numbers of energy-resource devices on coverage-limited spectrum without breaking real-time service guarantees.

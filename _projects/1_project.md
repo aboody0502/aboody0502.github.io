@@ -1,4 +1,6 @@
 ---
+lang: en
+alternate_url: /fr/projects/1_project/
 layout: page
 title: Digital-Twin Frameworks for Wireless Smart Grids
 description: Outage detection and UAV-assisted coverage planning for resilient IIoT smart-grid communications
@@ -20,7 +22,11 @@ Coupling **ray-traced channel models** with **resource-allocation logic** to det
 
 **Selected publications from this work:**
 
-- *Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance* — IEEE Communications Letters, 2026
-- *Digital Twinning in Smart Grid Networks: Interplay, Resource Allocation and Use Cases* — IEEE Communications Magazine, 2023
+- _Digital-Twin-Enabled Outage Detection and Uplink Availability Optimization With UAV Assistance_ — IEEE Communications Letters, 2026
+- _Digital Twinning in Smart Grid Networks: Interplay, Resource Allocation and Use Cases_ — IEEE Communications Magazine, 2023
 
-This was the central contribution of my Ph.D. thesis, *"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"* which received Mention Excellent at ÉTS in 2026.
+This was the central contribution of my Ph.D. thesis, _"Digital-Twin-Enabled and Risk-Aware Radio Resource Management for Resilient IIoT Smart Grid Communications,"_ which received Mention Excellent at ÉTS in 2026.
+
+<h2 id="symposium-3i">Presentation at Symposium 3i</h2>
+
+I presented the poster _"Keeping Wireless Digital Twins Useful After Disruption"_ at **Hydro-Québec’s Symposium 3i**, held at IREQ in Varennes on **October 7–8, 2026**. The presentation connected this research to selective model updates and resource allocation under limited synchronization budgets.
