@@ -29,4 +29,4 @@ This was the central contribution of my Ph.D. thesis, _"Digital-Twin-Enabled and
 
 <h2 id="symposium-3i">Presentation at Symposium 3i</h2>
 
-I presented the poster _"Keeping Wireless Digital Twins Useful After Disruption"_ at **Hydro-Québec’s Symposium 3i**, held at IREQ in Varennes on **October 7–8, 2026**. The presentation connected this research to selective model updates and resource allocation under limited synchronization budgets.
+I presented the poster _"Supporting Grid Recovery Through Resilient Wireless Connectivity"_ at **Hydro-Québec’s Symposium 3i**, held at IREQ in Varennes on **October 7–8, 2026**.

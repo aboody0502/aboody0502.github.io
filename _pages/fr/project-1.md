@@ -28,4 +28,4 @@ Il s’agit de la contribution centrale de ma thèse de doctorat, _« Digital-Tw
 
 <h2 id="symposium-3i">Présentation au Symposium 3i</h2>
 
-J’ai présenté l’affiche _« Keeping Wireless Digital Twins Useful After Disruption »_, sous-titrée _« Selective model updates and resource allocation under limited synchronization budgets »_, au Symposium 3i d’Hydro-Québec, tenu à l’IREQ, à Varennes, les 7 et 8 octobre 2026. Cette présentation portait sur les mises à jour sélectives des modèles et l’allocation des ressources lorsque le budget de synchronisation est limité.
+J’ai présenté l’affiche _« Supporting Grid Recovery Through Resilient Wireless Connectivity »_ au **Symposium 3i d’Hydro-Québec**, tenu à l’IREQ, à Varennes, les **7 et 8 octobre 2026**.
