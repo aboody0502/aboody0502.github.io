@@ -68,7 +68,14 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        {% capture contact_icons %}{% social_links %}{% endcapture %}
+        <div class="contact-icons">
+          {% if current_lang == 'fr' %}
+            {{ contact_icons | replace: '/assets/pdf/abdullah_othman_cv.pdf', '/assets/pdf/abdullah_othman_cv_fr.pdf' }}
+          {% else %}
+            {{ contact_icons }}
+          {% endif %}
+        </div>
 
         <div class="contact-note">
           {% if current_lang == 'fr' %}{{ ui.contact }}{% else %}{{ site.contact_note }}{% endif %}

@@ -9,11 +9,11 @@ nav_order: 5
 description: Curriculum vitæ d’Abdullah Othman, Ph. D. en génie électrique.
 ---
 
-Vous pouvez télécharger la version PDF de mon CV en anglais :
+Vous pouvez télécharger la version française à jour de mon CV :
 
 <div class="text-center my-4">
-  <a class="btn btn-outline-primary" href="{{ '/assets/pdf/abdullah_othman_cv.pdf' | relative_url }}" target="_blank" rel="noopener">
-    CV en anglais (PDF)
+  <a class="btn btn-outline-primary" href="{{ '/assets/pdf/abdullah_othman_cv_fr.pdf' | relative_url }}" target="_blank" rel="noopener">
+    CV en français (PDF)
   </a>
 </div>
 

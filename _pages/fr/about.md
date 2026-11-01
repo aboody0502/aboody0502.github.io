@@ -33,6 +33,22 @@ Je suis co-inventeur de **quatre brevets américains délivrés** portant sur la
 
 Avant mon doctorat, j’ai exercé des fonctions en génie électrique chez Naizak Global Engineering Systems (2018–2021), au sein du Lab Technical Support Office de KFUPM. J’y assurais le diagnostic et la maintenance d’instruments d’analyse dans les laboratoires de recherche de l’université. Je détiens également une maîtrise en génie des télécommunications et un baccalauréat en génie électrique, tous deux de la [King Fahd University of Petroleum and Minerals (KFUPM)](https://www.kfupm.edu.sa/).
 
-Je propose également des cours particuliers à titre indépendant par l’intermédiaire de [Superprof](https://www.superprof.ca/electrical-engineering-phd-tutors-math-statistics-and-physics-for-high-school-cegep-and-university-students-online-and-montreal.html), en ligne et à Montréal, depuis octobre 2026. Les séances récentes ont porté sur la dérivation en Calculus AB et les circuits électriques en physique, avec une préparation personnalisée et des exercices guidés sur tablette numérique.
-
 En dehors du génie et de la recherche, je suis aussi romancier. La page [livres]({{ '/fr/books/' | relative_url }}) présente les deux romans en langue arabe que j’ai publiés.
+
+<h2 id="tutoring">Cours particuliers</h2>
+
+Je propose un accompagnement indépendant aux élèves du secondaire, du cégep et de l’université. Les cours se donnent en anglais, en ligne ou à Montréal.
+
+**Matières proposées :**
+
+- Mathématiques : algèbre, calcul différentiel et intégral, algèbre linéaire, probabilités et statistiques.
+- Physique : mécanique, électricité et circuits électriques.
+- Génie et programmation : signaux et systèmes, Python et MATLAB.
+
+Les explications et exercices guidés suivent votre rythme. En ligne, j’utilise une tablette numérique et peux partager les notes en PDF. Envoyez idéalement les sujets et documents de cours 24 heures à l’avance.
+
+Les séances récentes, depuis octobre 2026, ont notamment porté sur la dérivation en Calculus AB et les circuits électriques.
+
+<p>
+  <a class="btn btn-outline-primary" href="https://www.superprof.ca/electrical-engineering-phd-tutors-math-statistics-and-physics-for-high-school-cegep-and-university-students-online-and-montreal.html" target="_blank" rel="noopener">Consulter mon profil Superprof</a>
+</p>

@@ -29,3 +29,13 @@ Il s’agit de la contribution centrale de ma thèse de doctorat, _« Digital-Tw
 <h2 id="symposium-3i">Présentation au Symposium 3i</h2>
 
 J’ai présenté l’affiche _« Supporting Grid Recovery Through Resilient Wireless Connectivity »_ au **Symposium 3i d’Hydro-Québec**, tenu à l’IREQ, à Varennes, les **7 et 8 octobre 2026**.
+
+<div class="row justify-content-center my-4">
+  <div class="col-12 col-md-8">
+    {% include figure.liquid path="assets/img/symposium-3i-2026.webp" alt="Une personne à côté de l’affiche de recherche sur la connectivité sans fil résiliente au Symposium 3i" caption="Symposium 3i — IREQ, Varennes, les 7 et 8 octobre 2026." class="img-fluid rounded z-depth-1" width="1122" height="1402" zoomable=true avoid_scaling=true %}
+  </div>
+</div>
+
+<p>
+  <a class="btn btn-outline-primary" href="{{ '/assets/pdf/symposium-3i-2026-poster.pdf' | relative_url }}" target="_blank" rel="noopener">Télécharger l’affiche (PDF)</a>
+</p>

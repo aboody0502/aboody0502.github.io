@@ -30,3 +30,13 @@ This was the central contribution of my Ph.D. thesis, _"Digital-Twin-Enabled and
 <h2 id="symposium-3i">Presentation at Symposium 3i</h2>
 
 I presented the poster _"Supporting Grid Recovery Through Resilient Wireless Connectivity"_ at **Hydro-Québec’s Symposium 3i**, held at IREQ in Varennes on **October 7–8, 2026**.
+
+<div class="row justify-content-center my-4">
+  <div class="col-12 col-md-8">
+    {% include figure.liquid path="assets/img/symposium-3i-2026.webp" alt="A person beside the research poster on resilient wireless connectivity at Symposium 3i" caption="Symposium 3i — IREQ, Varennes, October 7–8, 2026." class="img-fluid rounded z-depth-1" width="1122" height="1402" zoomable=true avoid_scaling=true %}
+  </div>
+</div>
+
+<p>
+  <a class="btn btn-outline-primary" href="{{ '/assets/pdf/symposium-3i-2026-poster.pdf' | relative_url }}" target="_blank" rel="noopener">Download poster (PDF)</a>
+</p>
