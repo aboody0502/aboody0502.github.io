@@ -25,7 +25,37 @@ en:
   slides: Slides
   website: Website
   video: Video
-  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  fewer_authors: fewer authors
+  search_placeholder: Search this site
+  search_navigation: Navigation
+  search_research: Research
+  search_books: Books
+  search_services: Services
+  search_contact: Contact and downloads
+  search_tutoring: Tutoring
+  search_cv: Download English CV (PDF)
+  cv_url: /assets/pdf/abdullah_othman_cv.pdf
+  search_email: Email
+  search_theme_light: Use light theme
+  search_theme_dark: Use dark theme
+  search_theme_system: Use system theme
+  search_select: Select
+  search_navigate: Navigate
+  search_close: Close
+  bibtex: BibTeX
 fr:
   home: /fr/
   about: à propos
@@ -53,4 +83,34 @@ fr:
   slides: Diapositives
   website: Site web
   video: Vidéo
-  months: [janv., févr., mars, avr., mai, juin, juill., août, sept., oct., nov., déc.]
+  months:
+    - janv.
+    - févr.
+    - mars
+    - avr.
+    - mai
+    - juin
+    - juill.
+    - août
+    - sept.
+    - oct.
+    - nov.
+    - déc.
+  fewer_authors: réduire la liste
+  search_placeholder: Rechercher sur ce site
+  search_navigation: Navigation
+  search_research: Recherche
+  search_books: Livres
+  search_services: Services
+  search_contact: Contact et téléchargements
+  search_tutoring: Cours particuliers
+  search_cv: Télécharger le CV français (PDF)
+  cv_url: /assets/pdf/abdullah_othman_cv_fr.pdf
+  search_email: Courriel
+  search_theme_light: Utiliser le thème clair
+  search_theme_dark: Utiliser le thème sombre
+  search_theme_system: Utiliser le thème du système
+  search_select: Choisir
+  search_navigate: Parcourir
+  search_close: Fermer
+  bibtex: BibTeX

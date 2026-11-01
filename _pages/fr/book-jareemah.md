@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "جريمة في ريف انكلترا - A Crime in the English Countryside"
+title_ar: جريمة في ريف انكلترا
+title_en: A Crime in the English Countryside
 permalink: /fr/books/jareemah_fi_reef_inglatera/
 lang: fr
 alternate_url: /books/jareemah_fi_reef_inglatera/

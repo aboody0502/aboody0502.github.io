@@ -21,7 +21,7 @@ Ces travaux visent à concevoir des **algorithmes de gestion des ressources radi
 
 **Quelques publications :**
 
-- _Joint Optimization of Radio Resources and Coverage Enhancement in Massive Microgrid Networks_ — IEEE Transactions on Network and Service Management, 2023.
-- _On the Convergence of Transmission Power Control in Multi-Microgrid Systems_ — IWCMC 2025.
+- [<span lang="en">_Joint Optimization of Radio Resources and Coverage Enhancement in Massive Microgrid Networks_</span>](https://doi.org/10.1109/TNSM.2023.3320517) — <span lang="en">IEEE Transactions on Network and Service Management</span>, 2024.
+- [<span lang="en">_On the Convergence of Transmission Power Control in Multi-Microgrid Systems_</span>](https://doi.org/10.1109/IWCMC65282.2025.11059449) — IWCMC 2025.
 
-Cet axe de ma thèse répond directement à un défi du déploiement à grande échelle des réseaux électriques intelligents sans fil : coordonner un très grand nombre d’équipements énergétiques sur un spectre offrant une couverture limitée, tout en respectant les garanties de service en temps réel.
+Cet axe de ma thèse répond directement à un défi du déploiement à grande échelle des communications sans fil pour les réseaux électriques intelligents : coordonner un très grand nombre d’équipements énergétiques sur un spectre offrant une couverture limitée, tout en respectant les garanties de service en temps réel.

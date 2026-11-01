@@ -2,6 +2,29 @@
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
 
+// Outline remains visible on controls whose utility classes remove box shadows.
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.btn-outline-primary {
+  color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:not([disabled]):not(.disabled):active,
+  &:not([disabled]):not(.disabled).active {
+    color: var(--global-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+  }
+}
+
 // Checklist
 
 ul.task-list {

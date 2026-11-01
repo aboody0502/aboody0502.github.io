@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "أبي ليس أبي - My Father Is Not My Father"
+title_ar: أبي ليس أبي
+title_en: My Father Is Not My Father
 permalink: /fr/books/abi_laysa_abi/
 lang: fr
 alternate_url: /books/abi_laysa_abi/

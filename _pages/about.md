@@ -13,6 +13,7 @@ profile:
   more_info: >
     <p>Montréal, QC — Canada</p>
 
+tutoring: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -34,21 +35,3 @@ I am co-inventor on **four granted U.S. patents** in deep-learning-based event d
 Before the Ph.D., I worked as an electrical engineer at Naizak Global Engineering Systems (2018–2021), embedded with KFUPM's Lab Technical Support Office — diagnosing and servicing analytical instrumentation across the university's research labs. I hold an M.Sc. in Telecommunications Engineering and a B.Sc. in Electrical Engineering, both from [King Fahd University of Petroleum and Minerals (KFUPM)](https://www.kfupm.edu.sa/).
 
 Outside of engineering, I am also a published novelist — see the [books](/books/) page for the two Arabic-language novels I have written.
-
-<h2 id="tutoring">Tutoring</h2>
-
-I offer independent tutoring for high school, CEGEP and university students, in English, online or in Montréal.
-
-**Subjects offered:**
-
-- Mathematics: algebra, calculus, linear algebra, probability and statistics.
-- Physics: mechanics, electricity and electrical circuits.
-- Engineering and programming: signals and systems, Python and MATLAB.
-
-Explanations follow your pace, with guided practice. Online sessions use a digital writing tablet; PDF notes can be shared. Please send topics and course materials ideally 24 hours ahead.
-
-Recent lessons since October 2026 have included Calculus AB differentiation and electrical circuits.
-
-<p>
-  <a class="btn btn-outline-primary" href="https://www.superprof.ca/electrical-engineering-phd-tutors-math-statistics-and-physics-for-high-school-cegep-and-university-students-online-and-montreal.html" target="_blank" rel="noopener">View my Superprof profile</a>
-</p>
