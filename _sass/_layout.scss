@@ -67,6 +67,10 @@ ninja-keys {
 }
 
 ninja-keys::part(ninja-action) {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
   overflow-wrap: anywhere;
 }
 

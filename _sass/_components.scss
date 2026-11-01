@@ -5,7 +5,9 @@
 // Outline remains visible on controls whose utility classes remove box shadows.
 a:focus-visible,
 button:focus-visible,
-[role="button"]:focus-visible {
+[role="button"]:focus-visible,
+.publications a:focus-visible,
+.publications button:focus-visible {
   outline: 3px solid var(--global-theme-color);
   outline-offset: 3px;
 }
